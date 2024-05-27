@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
-        <script src="https://kit.fontawesome.com/a66f91cac5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a66f91cac5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -52,7 +52,29 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Got an adventure in mind?</h3>
+                <h5 class="uppercase text-center">Lets work together</h5>
+
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailadress" class="form-control" placeholder="Email"
+                            required />
+                        <textarea rows="5" name="projectsummery" id="projectsummery" class="form-control"
+                            placeholder="Adventure Description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Adventure Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
 
     </section>
     <footer class="container-fluid">
@@ -60,7 +82,7 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    Full Stack Web Developer. Skilled in HTML, CSS, Javascript and Python. 
+                    Full Stack Web Developer. Skilled in HTML, CSS, Javascript and Python.
                     Educated in design thinking with help of bootstrap. Familiar with github and Heroku
                 </p>
             </div>
